@@ -1,46 +1,75 @@
-*{
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+@font-face {
+    font-family: 'MyFont';
+    src: url('Assets//Roboto-Regular.woff2') format(woff2);
 }
-.container{
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+p{
+    background-color: #d6eaf8;
 }
-.container h1{
-	margin: 30px;
+h1{
+    background-color:  #d6eaf8;
+    color: black;
+    margin: 1% auto;
+    padding: 1%;
+    width: max-content;
+    text-align: center;
+    border-radius: 8px;
 }
-.counter{
-	width: 30%;
-	display: flex;
-	justify-content: center;
+nav{
+    background-color:  #d6eaf8;
+    font-size: 100%;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: 0% auto 1% auto;
+    padding: 1%;
+    border-radius: 8px;
 }
-#increment-btn, #decrement-btn, #reset{
-	height: 50px;
-	width: 120px;
-	padding: 0 40px;
-	border-radius: 10px;
-	font-size: 40px;
-	background-color: #2e8d46;
-	border: 2px solid #2e8d46;
-	color: white;
-	margin: 20px;
+
+a{
+    height: auto;
+    width: 100%;
+    padding: .1%;
 }
-#reset{
-	font-size: 20px;
+
+body{
+    background-color: #85c1e9;
+    font-family: 'MyFont';
 }
-#counter-value{
-	height: 50px;
-	min-width: 120px;
-	border-radius: 10px;
-	background-color: rgba(255, 0, 0, 0.187);
-	margin-top: 20px;
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+img{
+    border-radius: 4px;
+    width: 40%;
+}
+#name{
+    font-style: italic;
+    padding-left: 12%;
+    vertical-align:240%;
+    display: inline;
+    width: 100%;
+}
+#mytable{
+    margin: 0% auto;
+    width: 80%;
+}
+#th{
+    width: 40%;
+    background-color: #d6eaf8;
+    border-radius: 4px;
+    margin-bottom: 211%;
+}
+#item{
+    padding: 2%;
+    width: 40%;
+    background-color: #d6eaf8;
+    border-radius: 4px;
+}
+#description{
+    font-size: 80%;
+    padding: 2%;
+    width: 60%;
+    background-color: #d6eaf8;
+    border-radius: 4px;
+}
+#aboutme{
+    border-radius: 4px;
+    padding: 2%;
 }
