@@ -13,14 +13,14 @@
 <body>
     <h1>Portfolio</h1>
     <nav>
+        <a href="index.html">Home</a> 
         <a href="About.html">About me</a> 
-        <a href="Feedback.html">Complaints & suggestions</a> 
         <a href="Contact.html">Contact info</a>
     </nav>
     <button id="themebtn" type="button" onclick="changetheme()"><img src="Images/dark-theme-icon-512x512-185rlszm.png"></button>
     <table id="mytable">
         <tr>
-            <th>
+            <th id="projhead">
                 <h2>Project<h2>
             </th>
             <th id="status">
@@ -31,9 +31,10 @@
             </th>
         </tr>
         <tr>
-            <td id="item">
-                <img src="Images/android-chrome-512x512.png" alt="Website logo">
-                Website</td>
+            <td id="item"><ul><li>
+                <img src="Images/android-chrome-512x512.png" alt="Website logo"></li>
+                <li>Website</li></td>
+            </ul>
             <td id="statusitem">Updating...</td>
             <td id="description"><p>This website is my online showcase, giving you a peek into 
                 my journey, skills, and projects. I keep it updated with my latest achievements,
@@ -44,9 +45,12 @@
         </tr>
         <tr>
             <td id="item">
-                <img src="Images/Weeknode_logo.png" alt="Weeknode logo">
-                <a id="itemlink" href="https://play.google.com/store/apps/details?id=com.ferman.weeknote"
-                 target="_blank">Weeknode</a></td>
+                <ul>
+                <li><img src="Images/Weeknode_logo.png" alt="Weeknode logo"></li>
+                <li><a id="itemlink" href="https://play.google.com/store/apps/details?id=com.ferman.weeknote"
+                 target="_blank">Weeknode</a></li>
+                </ul>
+            </td>
                  <td id="statusitem">Updating...</td>
             <td id="description"><p>
                 An android app that is used to track activities and todo lists 

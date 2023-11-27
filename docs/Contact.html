@@ -11,17 +11,19 @@
     <nav>
         <a href="index.html">Home</a> 
         <a href="About.html">About me</a>
-        <a href="Feedback.html">Complaints & suggestions</a>
+        <a href="Contact.html">Contact info</a>
     </nav>
-    <button id="themebtn" type="button" onclick="changetheme()">Toggle Theme</button>
+    <button id="themebtn" type="button" onclick="changetheme()"><img src="Images/dark-theme-icon-512x512-185rlszm.png"></button>
 
     <table id="contacttable">
         <tr>
             <td id="contactitem">
                 Phone:
             </td>
-            <td id="contactitem">
-                +971-561412252
+            <td id="contactitem"><ul>
+                <li>+971-561412252</li>
+                <li><button id="copynumbtn" onclick="copynum()"><img id="contactimg" src="Images/copy-solid.svg"></button></li>
+            </ul>
             </td>
         </tr>
         <tr>
@@ -29,11 +31,16 @@
                 Email:
             </td>
             <td id="contactitem">
-                Ferman557@gmail.com
+                <ul>
+                    <li>3abdulla.almazrouei@gmail.com</li>
+                    <li><button id="copymailbtn" onclick="copymail()"><img id="contactimg" src="Images/copy-solid.svg"></button></li>
+                </ul>
+                
             </td>
         </tr>
         
     </table>
+            <span id="snackbar">Copied to clipboard</span>
 
 
 
