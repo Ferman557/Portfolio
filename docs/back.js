@@ -34,7 +34,7 @@ function changetheme(){
 }
 //Copy number and email to clipboard with in site notification*************
 function copynum(){
-  navigator.clipboard.writeText("971561412252");
+  navigator.clipboard.writeText("");
 
   showSnackBar();
 }
